@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MyAlarm</string>
+    <string name="action_settings">Settings</string>
+    <string name="current_time">Current Time</string>
+    <string name="alarm_start">Alarm Start Time</string>
+    <string name="alarm_interval">Alarm Interval</string>
+    <string name="alarm_stop">Number of Occurrences of Alarm</string>
+
+</resources>

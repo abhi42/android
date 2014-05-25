@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/measure_speed_use_location_sensor_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:columnCount="2"
+    android:orientation="horizontal" >
+
+    <Space
+        android:layout_height="16dp"
+        android:layout_column="0"
+        android:layout_row="0" />
+
+    <Space
+        android:layout_height="16dp"
+        android:layout_column="1"
+        android:layout_row="0" />
+
+    <TextView
+        android:id="@+id/speedTextUsingSensor"
+        android:layout_columnSpan="1"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/speedText"
+        android:textColor="@color/green"
+        android:textIsSelectable="true"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/speedValueUsingSensor"
+        android:layout_columnSpan="1"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/orange"
+        android:textIsSelectable="true"
+        android:textSize="20sp" />
+
+    <!-- TODO improve the way in which spacing is done. Use of Spaces is most probably not optimal -->
+
+    <Space
+        android:layout_height="16dp"
+        android:layout_column="0"
+        android:layout_row="2" />
+
+    <Space
+        android:layout_height="16dp"
+        android:layout_column="1"
+        android:layout_row="2" />
+
+    <TextView
+        android:id="@+id/calculatedSeedTextUsingSensor"
+        android:layout_columnSpan="1"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/calculatedSpeedText"
+        android:textColor="@color/green"
+        android:textIsSelectable="true"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/calculatedSpeedValueUsingSensor"
+        android:layout_columnSpan="1"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/orange"
+        android:textIsSelectable="true"
+        android:textSize="20sp" />
+
+    <Space
+        android:layout_height="16dp"
+        android:layout_column="0"
+        android:layout_row="4" />
+
+    <Space
+        android:layout_height="16dp"
+        android:layout_column="1"
+        android:layout_row="4" />
+
+    <Space
+        android:layout_height="16dp"
+        android:layout_column="0"
+        android:layout_row="5" />
+
+    <Space
+        android:layout_height="16dp"
+        android:layout_column="1"
+        android:layout_row="5" />
+
+    <Button
+        android:id="@+id/btn_ToggleSpeedMeasurementUsingSensors"
+        android:layout_column="0"
+        android:layout_columnSpan="2"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="10dip"
+        android:background="@color/grey"
+        android:onClick="onSubmitToggleSpeedMeasurement"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:textColor="@color/black" />
+
+    <LinearLayout
+        android:id="@+id/measure_speed_use_location_sensor_map_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_column="0"
+        android:layout_columnSpan="2"
+        android:orientation="horizontal" >
+    </LinearLayout>
+    <!--
+           fragment
+          android:id="@+id/location_map" 
+          android:name="com.google.android.gms.maps.MapFragment"
+          android:layout_column="0"
+          android:layout_columnSpan="2"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"/
+    -->
+
+</GridLayout>
