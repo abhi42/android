@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/custom_clock_widget"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/widget_margin">
+
+        <AnalogClock
+            android:id="@+id/MyAnalogClock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:dial="@drawable/ic_launcher"
+            android:hand_hour="@drawable/hr_hand"
+            android:hand_minute="@drawable/minute_hand"/>
+
+    </RelativeLayout>
