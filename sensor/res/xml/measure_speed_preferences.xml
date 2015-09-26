@@ -1,6 +1,0 @@
-    <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
-        <ListPreference android:defaultValue="1000" android:title="@string/pref_measure_speed_time_interval_setting" android:key="pref_measure_speed_time_interval_setting" android:entryValues="@array/time_interval_values" android:entries="@array/time_interval_entries"/>
-        <ListPreference android:defaultValue="@string/pref_measure_speed_distance_setting" android:title="@string/pref_measure_speed_distance_setting" android:key="pref_measure_speed_distance_setting" android:entryValues="@array/distance_values" android:entries="@array/distance_entries"/>
-        <!-- <SwitchPreference android:key="pref_measure_speed_show_map" android:title="@string/pref_measure_speed_show_map_setting" android:defaultValue="false" android:switchTextOn="@string/pref_measure_speed_show_map_setting_text_on" android:switchTextOff="@string/pref_measure_speed_show_map_setting_text_off"/> -->
-        <CheckBoxPreference android:key="pref_measure_speed_show_map" android:title="@string/pref_measure_speed_show_map_setting" android:summaryOff="@string/pref_measure_speed_show_map_setting_text_off" android:summaryOn="@string/pref_measure_speed_show_map_setting_text_on"/>
-    </PreferenceScreen>
